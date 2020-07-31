@@ -1,0 +1,868 @@
+2020 Jul 30  19:50:07.175  [9A]  0xB821  NR5G RRC OTA Packet  --  RRC_RECONFIG
+Pkt Version = 6
+RRC Release Number.Major.minor = 15.4.0
+Radio Bearer ID = 1, Physical Cell ID = N/A
+Freq = N/A
+Sfn = N/A, SubFrameNum = N/A
+slot = 0
+PDU Number = RRC_RECONFIG Message,    Msg Length = 313
+SIB Mask in SI =  0x00
+
+Interpreted PDU:
+
+value RRCReconfiguration ::= 
+{
+  rrc-TransactionIdentifier 0,
+  criticalExtensions rrcReconfiguration : 
+    {
+      secondaryCellGroup 
+        CONTAINING
+        {
+          cellGroupId 1,
+          rlc-BearerToAddModList 
+          {
+            {
+              logicalChannelIdentity 4,
+              servedRadioBearer drb-Identity : 1,
+              reestablishRLC true,
+              rlc-Config am : 
+                {
+                  ul-AM-RLC 
+                  {
+                    sn-FieldLength size18,
+                    t-PollRetransmit ms45,
+                    pollPDU p64,
+                    pollByte kB500,
+                    maxRetxThreshold t32
+                  },
+                  dl-AM-RLC 
+                  {
+                    sn-FieldLength size18,
+                    t-Reassembly ms15,
+                    t-StatusProhibit ms15
+                  }
+                },
+              mac-LogicalChannelConfig 
+              {
+                ul-SpecificParameters 
+                {
+                  priority 1,
+                  prioritisedBitRate infinity,
+                  bucketSizeDuration ms50,
+                  logicalChannelGroup 1,
+                  logicalChannelSR-Mask FALSE,
+                  logicalChannelSR-DelayTimerApplied FALSE
+                }
+              }
+            }
+          },
+          mac-CellGroupConfig 
+          {
+            bsr-Config 
+            {
+              periodicBSR-Timer sf80,
+              retxBSR-Timer sf320
+            },
+            tag-Config 
+            {
+              tag-ToAddModList 
+              {
+                {
+                  tag-Id 0,
+                  timeAlignmentTimer infinity
+                }
+              }
+            },
+            phr-Config setup : 
+              {
+                phr-PeriodicTimer sf20,
+                phr-ProhibitTimer sf0,
+                phr-Tx-PowerFactorChange dB3,
+                multiplePHR FALSE,
+                dummy FALSE,
+                phr-Type2OtherCell FALSE,
+                phr-ModeOtherCG real
+              },
+            skipUplinkTxDynamic FALSE
+          },
+          physicalCellGroupConfig 
+          {
+            p-NR-FR1 20,
+            pdsch-HARQ-ACK-Codebook dynamic
+          },
+          spCellConfig 
+          {
+            servCellIndex 1,
+            reconfigurationWithSync 
+            {
+              spCellConfigCommon 
+              {
+                physCellId 0,
+                downlinkConfigCommon 
+                {
+                  frequencyInfoDL 
+                  {
+                    absoluteFrequencySSB 641272,
+                    frequencyBandList 
+                    {
+                      78
+                    },
+                    absoluteFrequencyPointA 640000,
+                    scs-SpecificCarrierList 
+                    {
+                      {
+                        offsetToCarrier 0,
+                        subcarrierSpacing kHz30,
+                        carrierBandwidth 106
+                      }
+                    }
+                  },
+                  initialDownlinkBWP 
+                  {
+                    genericParameters 
+                    {
+                      locationAndBandwidth 6366,
+                      subcarrierSpacing kHz30
+                    },
+                    pdcch-ConfigCommon setup : 
+                      {
+                        controlResourceSetZero 0,
+                        searchSpaceZero 0
+                      },
+                    pdsch-ConfigCommon setup : 
+                      {
+                        pdsch-TimeDomainAllocationList 
+                        {
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 40
+                          },
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 53
+                          },
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 54
+                          },
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 57
+                          }
+                        }
+                      }
+                  }
+                },
+                uplinkConfigCommon 
+                {
+                  frequencyInfoUL 
+                  {
+                    frequencyBandList 
+                    {
+                      78
+                    },
+                    scs-SpecificCarrierList 
+                    {
+                      {
+                        offsetToCarrier 0,
+                        subcarrierSpacing kHz30,
+                        carrierBandwidth 106
+                      }
+                    },
+                    p-Max 20
+                  },
+                  initialUplinkBWP 
+                  {
+                    genericParameters 
+                    {
+                      locationAndBandwidth 6366,
+                      subcarrierSpacing kHz30
+                    },
+                    rach-ConfigCommon setup : 
+                      {
+                        rach-ConfigGeneric 
+                        {
+                          prach-ConfigurationIndex 98,
+                          msg1-FDM one,
+                          msg1-FrequencyStart 0,
+                          zeroCorrelationZoneConfig 13,
+                          preambleReceivedTargetPower -100,
+                          preambleTransMax n10,
+                          powerRampingStep dB2,
+                          ra-ResponseWindow sl20
+                        },
+                        ssb-perRACH-OccasionAndCB-PreamblesPerSSB one : n60,
+                        ra-ContentionResolutionTimer sf64,
+                        rsrp-ThresholdSSB 19,
+                        prach-RootSequenceIndex l139 : 1,
+                        msg1-SubcarrierSpacing kHz30,
+                        restrictedSetConfig unrestrictedSet
+                      },
+                    pusch-ConfigCommon setup : 
+                      {
+                        groupHoppingEnabledTransformPrecoding enabled,
+                        pusch-TimeDomainAllocationList 
+                        {
+                          {
+                            k2 2,
+                            mappingType typeB,
+                            startSymbolAndLength 55
+                          },
+                          {
+                            k2 2,
+                            mappingType typeB,
+                            startSymbolAndLength 69
+                          },
+                          {
+                            k2 7,
+                            mappingType typeB,
+                            startSymbolAndLength 52
+                          }
+                        },
+                        msg3-DeltaPreamble 1,
+                        p0-NominalWithGrant -90
+                      },
+                    pucch-ConfigCommon setup : 
+                      {
+                        pucch-ResourceCommon 0,
+                        pucch-GroupHopping neither,
+                        hoppingId 40,
+                        p0-nominal -90
+                      }
+                  },
+                  dummy ms500
+                },
+                ssb-PositionsInBurst mediumBitmap : '10000000'B,
+                ssb-periodicityServingCell ms20,
+                dmrs-TypeA-Position pos2,
+                subcarrierSpacing kHz30,
+                tdd-UL-DL-ConfigurationCommon 
+                {
+                  referenceSubcarrierSpacing kHz30,
+                  pattern1 
+                  {
+                    dl-UL-TransmissionPeriodicity ms5,
+                    nrofDownlinkSlots 7,
+                    nrofDownlinkSymbols 6,
+                    nrofUplinkSlots 2,
+                    nrofUplinkSymbols 4
+                  }
+                },
+                ss-PBCH-BlockPower -25
+              },
+              newUE-Identity 1444,
+              t304 ms2000,
+              rach-ConfigDedicated uplink : 
+                {
+                  cfra 
+                  {
+                    occasions 
+                    {
+                      rach-ConfigGeneric 
+                      {
+                        prach-ConfigurationIndex 98,
+                        msg1-FDM one,
+                        msg1-FrequencyStart 0,
+                        zeroCorrelationZoneConfig 13,
+                        preambleReceivedTargetPower -100,
+                        preambleTransMax n10,
+                        powerRampingStep dB2,
+                        ra-ResponseWindow sl20
+                      }
+                    },
+                    resources ssb : 
+                      {
+                        ssb-ResourceList 
+                        {
+                          {
+                            ssb 0,
+                            ra-PreambleIndex 63
+                          }
+                        },
+                        ra-ssb-OccasionMaskIndex 0
+                      }
+                  }
+                }
+            },
+            rlf-TimersAndConstants setup : 
+              {
+                t310 ms2000,
+                n310 n10,
+                n311 n1,
+                t311-v1530 ms30000
+              },
+            spCellConfigDedicated 
+            {
+              initialDownlinkBWP 
+              {
+                pdsch-Config setup : 
+                  {
+                    dmrs-DownlinkForPDSCH-MappingTypeA setup : 
+                      {
+                        dmrs-AdditionalPosition pos0
+                      },
+                    resourceAllocation resourceAllocationType1,
+                    rbg-Size config1,
+                    maxNrofCodeWordsScheduledByDCI n1,
+                    prb-BundlingType staticBundling : 
+                      {
+                        bundleSize wideband
+                      }
+                  }
+              },
+              downlinkBWP-ToAddModList 
+              {
+                {
+                  bwp-Id 1,
+                  bwp-Common 
+                  {
+                    genericParameters 
+                    {
+                      locationAndBandwidth 28875,
+                      subcarrierSpacing kHz30
+                    },
+                    pdcch-ConfigCommon setup : 
+                      {
+                        commonControlResourceSet 
+                        {
+                          controlResourceSetId 1,
+                          frequencyDomainResources '11111111 11111111 00000000 00000000 00000000 00000'B,
+                          duration 1,
+                          cce-REG-MappingType nonInterleaved : NULL,
+                          precoderGranularity sameAsREG-bundle,
+                          tci-StatesPDCCH-ToAddList 
+                          {
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                          }
+                        },
+                        commonSearchSpaceList 
+                        {
+                          {
+                            searchSpaceId 1,
+                            controlResourceSetId 1,
+                            monitoringSlotPeriodicityAndOffset sl1 : NULL,
+                            monitoringSymbolsWithinSlot '11000000 000000'B,
+                            nrofCandidates 
+                            {
+                              aggregationLevel1 n0,
+                              aggregationLevel2 n0,
+                              aggregationLevel4 n1,
+                              aggregationLevel8 n0,
+                              aggregationLevel16 n0
+                            },
+                            searchSpaceType common : 
+                              {
+                                dci-Format0-0-AndFormat1-0 
+                                {
+                                }
+                              }
+                          }
+                        },
+                        ra-SearchSpace 1
+                      },
+                    pdsch-ConfigCommon setup : 
+                      {
+                        pdsch-TimeDomainAllocationList 
+                        {
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 40
+                          },
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 53
+                          },
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 54
+                          },
+                          {
+                            k0 0,
+                            mappingType typeA,
+                            startSymbolAndLength 57
+                          }
+                        }
+                      }
+                  },
+                  bwp-Dedicated 
+                  {
+                    pdcch-Config setup : 
+                      {
+                        controlResourceSetToAddModList 
+                        {
+                          {
+                            controlResourceSetId 1,
+                            frequencyDomainResources '11111111 11111111 00000000 00000000 00000000 00000'B,
+                            duration 1,
+                            cce-REG-MappingType nonInterleaved : NULL,
+                            precoderGranularity sameAsREG-bundle,
+                            tci-StatesPDCCH-ToAddList 
+                            {
+                              0,
+                              1,
+                              2,
+                              3,
+                              4,
+                              5,
+                              6,
+                              7
+                            }
+                          }
+                        },
+                        searchSpacesToAddModList 
+                        {
+                          {
+                            searchSpaceId 2,
+                            controlResourceSetId 1,
+                            monitoringSlotPeriodicityAndOffset sl1 : NULL,
+                            monitoringSymbolsWithinSlot '11000000 000000'B,
+                            nrofCandidates 
+                            {
+                              aggregationLevel1 n0,
+                              aggregationLevel2 n0,
+                              aggregationLevel4 n4,
+                              aggregationLevel8 n0,
+                              aggregationLevel16 n0
+                            },
+                            searchSpaceType ue-Specific : 
+                              {
+                                dci-Formats formats0-1-And-1-1
+                              }
+                          }
+                        }
+                      },
+                    pdsch-Config setup : 
+                      {
+                        dmrs-DownlinkForPDSCH-MappingTypeA setup : 
+                          {
+                            dmrs-AdditionalPosition pos0
+                          },
+                        resourceAllocation resourceAllocationType1,
+                        rbg-Size config1,
+                        maxNrofCodeWordsScheduledByDCI n1,
+                        prb-BundlingType staticBundling : 
+                          {
+                            bundleSize wideband
+                          }
+                      }
+                  }
+                }
+              },
+              firstActiveDownlinkBWP-Id 1,
+              defaultDownlinkBWP-Id 1,
+              uplinkConfig 
+              {
+                initialUplinkBWP 
+                {
+                  pusch-Config setup : 
+                    {
+                      txConfig codebook,
+                      dmrs-UplinkForPUSCH-MappingTypeB setup : 
+                        {
+                          dmrs-AdditionalPosition pos0,
+                          transformPrecodingDisabled 
+                          {
+                          }
+                        },
+                      pusch-PowerControl 
+                      {
+                        msg3-Alpha alpha1,
+                        p0-AlphaSets 
+                        {
+                          {
+                            p0-PUSCH-AlphaSetId 0,
+                            p0 0,
+                            alpha alpha1
+                          }
+                        },
+                        pathlossReferenceRSToAddModList 
+                        {
+                          {
+                            pusch-PathlossReferenceRS-Id 0,
+                            referenceSignal csi-RS-Index : 0
+                          }
+                        }
+                      },
+                      resourceAllocation resourceAllocationType1,
+                      transformPrecoder disabled,
+                      codebookSubset nonCoherent,
+                      maxRank 1
+                    },
+                  srs-Config setup : 
+                    {
+                      srs-ResourceSetToAddModList 
+                      {
+                        {
+                          srs-ResourceSetId 0,
+                          srs-ResourceIdList 
+                          {
+                            0
+                          },
+                          resourceType aperiodic : 
+                            {
+                              aperiodicSRS-ResourceTrigger 1,
+                              slotOffset 2
+                            },
+                          usage codebook,
+                          alpha alpha1,
+                          p0 -80
+                        }
+                      },
+                      srs-ResourceToAddModList 
+                      {
+                        {
+                          srs-ResourceId 0,
+                          nrofSRS-Ports port1,
+                          transmissionComb n2 : 
+                            {
+                              combOffset-n2 0,
+                              cyclicShift-n2 0
+                            },
+                          resourceMapping 
+                          {
+                            startPosition 2,
+                            nrofSymbols n1,
+                            repetitionFactor n1
+                          },
+                          freqDomainPosition 0,
+                          freqDomainShift 0,
+                          freqHopping 
+                          {
+                            c-SRS 61,
+                            b-SRS 0,
+                            b-hop 0
+                          },
+                          groupOrSequenceHopping neither,
+                          resourceType aperiodic : 
+                            {
+                            },
+                          sequenceId 40,
+                          spatialRelationInfo 
+                          {
+                            referenceSignal csi-RS-Index : 0
+                          }
+                        }
+                      }
+                    }
+                },
+                uplinkBWP-ToAddModList 
+                {
+                  {
+                    bwp-Id 1,
+                    bwp-Common 
+                    {
+                      genericParameters 
+                      {
+                        locationAndBandwidth 28875,
+                        subcarrierSpacing kHz30
+                      },
+                      rach-ConfigCommon setup : 
+                        {
+                          rach-ConfigGeneric 
+                          {
+                            prach-ConfigurationIndex 98,
+                            msg1-FDM one,
+                            msg1-FrequencyStart 0,
+                            zeroCorrelationZoneConfig 13,
+                            preambleReceivedTargetPower -100,
+                            preambleTransMax n10,
+                            powerRampingStep dB2,
+                            ra-ResponseWindow sl20
+                          },
+                          ssb-perRACH-OccasionAndCB-PreamblesPerSSB one : n60,
+                          ra-ContentionResolutionTimer sf64,
+                          rsrp-ThresholdSSB 19,
+                          prach-RootSequenceIndex l139 : 1,
+                          msg1-SubcarrierSpacing kHz30,
+                          restrictedSetConfig unrestrictedSet
+                        },
+                      pusch-ConfigCommon setup : 
+                        {
+                          groupHoppingEnabledTransformPrecoding enabled,
+                          pusch-TimeDomainAllocationList 
+                          {
+                            {
+                              k2 2,
+                              mappingType typeB,
+                              startSymbolAndLength 55
+                            },
+                            {
+                              k2 2,
+                              mappingType typeB,
+                              startSymbolAndLength 69
+                            },
+                            {
+                              k2 7,
+                              mappingType typeB,
+                              startSymbolAndLength 52
+                            }
+                          },
+                          msg3-DeltaPreamble 1,
+                          p0-NominalWithGrant -90
+                        },
+                      pucch-ConfigCommon setup : 
+                        {
+                          pucch-ResourceCommon 0,
+                          pucch-GroupHopping neither,
+                          hoppingId 40,
+                          p0-nominal -90
+                        }
+                    },
+                    bwp-Dedicated 
+                    {
+                      pucch-Config setup : 
+                        {
+                          resourceSetToAddModList 
+                          {
+                            {
+                              pucch-ResourceSetId 0,
+                              resourceList 
+                              {
+                                1,
+                                2
+                              }
+                            },
+                            {
+                              pucch-ResourceSetId 1,
+                              resourceList 
+                              {
+                                3,
+                                4
+                              }
+                            }
+                          },
+                          resourceToAddModList 
+                          {
+                            {
+                              pucch-ResourceId 1,
+                              startingPRB 48,
+                              format format0 : 
+                                {
+                                  initialCyclicShift 0,
+                                  nrofSymbols 1,
+                                  startingSymbolIndex 13
+                                }
+                            },
+                            {
+                              pucch-ResourceId 2,
+                              startingPRB 48,
+                              format format0 : 
+                                {
+                                  initialCyclicShift 0,
+                                  nrofSymbols 1,
+                                  startingSymbolIndex 12
+                                }
+                            },
+                            {
+                              pucch-ResourceId 3,
+                              startingPRB 40,
+                              format format2 : 
+                                {
+                                  nrofPRBs 16,
+                                  nrofSymbols 1,
+                                  startingSymbolIndex 13
+                                }
+                            },
+                            {
+                              pucch-ResourceId 4,
+                              startingPRB 40,
+                              format format2 : 
+                                {
+                                  nrofPRBs 16,
+                                  nrofSymbols 1,
+                                  startingSymbolIndex 12
+                                }
+                            }
+                          },
+                          format2 setup : 
+                            {
+                              maxCodeRate zeroDot15
+                            },
+                          dl-DataToUL-ACK 
+                          {
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            0,
+                            0
+                          },
+                          spatialRelationInfoToAddModList 
+                          {
+                            {
+                              pucch-SpatialRelationInfoId 1,
+                              referenceSignal csi-RS-Index : 0,
+                              pucch-PathlossReferenceRS-Id 0,
+                              p0-PUCCH-Id 1,
+                              closedLoopIndex i0
+                            }
+                          },
+                          pucch-PowerControl 
+                          {
+                            deltaF-PUCCH-f0 0,
+                            deltaF-PUCCH-f1 0,
+                            deltaF-PUCCH-f2 0,
+                            deltaF-PUCCH-f3 0,
+                            deltaF-PUCCH-f4 0,
+                            p0-Set 
+                            {
+                              {
+                                p0-PUCCH-Id 1,
+                                p0-PUCCH-Value 0
+                              }
+                            },
+                            pathlossReferenceRSs 
+                            {
+                              {
+                                pucch-PathlossReferenceRS-Id 0,
+                                referenceSignal csi-RS-Index : 0
+                              }
+                            }
+                          }
+                        },
+                      pusch-Config setup : 
+                        {
+                          txConfig codebook,
+                          dmrs-UplinkForPUSCH-MappingTypeB setup : 
+                            {
+                              dmrs-AdditionalPosition pos0,
+                              transformPrecodingDisabled 
+                              {
+                              }
+                            },
+                          pusch-PowerControl 
+                          {
+                            msg3-Alpha alpha1,
+                            p0-AlphaSets 
+                            {
+                              {
+                                p0-PUSCH-AlphaSetId 0,
+                                p0 0,
+                                alpha alpha1
+                              }
+                            },
+                            pathlossReferenceRSToAddModList 
+                            {
+                              {
+                                pusch-PathlossReferenceRS-Id 0,
+                                referenceSignal csi-RS-Index : 0
+                              }
+                            }
+                          },
+                          resourceAllocation resourceAllocationType1,
+                          transformPrecoder disabled,
+                          codebookSubset nonCoherent,
+                          maxRank 1
+                        },
+                      srs-Config setup : 
+                        {
+                          srs-ResourceSetToAddModList 
+                          {
+                            {
+                              srs-ResourceSetId 0,
+                              srs-ResourceIdList 
+                              {
+                                0
+                              },
+                              resourceType aperiodic : 
+                                {
+                                  aperiodicSRS-ResourceTrigger 1,
+                                  slotOffset 2
+                                },
+                              usage codebook,
+                              alpha alpha1,
+                              p0 -80
+                            }
+                          },
+                          srs-ResourceToAddModList 
+                          {
+                            {
+                              srs-ResourceId 0,
+                              nrofSRS-Ports port1,
+                              transmissionComb n2 : 
+                                {
+                                  combOffset-n2 0,
+                                  cyclicShift-n2 0
+                                },
+                              resourceMapping 
+                              {
+                                startPosition 2,
+                                nrofSymbols n1,
+                                repetitionFactor n1
+                              },
+                              freqDomainPosition 0,
+                              freqDomainShift 0,
+                              freqHopping 
+                              {
+                                c-SRS 61,
+                                b-SRS 0,
+                                b-hop 0
+                              },
+                              groupOrSequenceHopping neither,
+                              resourceType aperiodic : 
+                                {
+                                },
+                              sequenceId 40,
+                              spatialRelationInfo 
+                              {
+                                referenceSignal csi-RS-Index : 0
+                              }
+                            }
+                          }
+                        }
+                    }
+                  }
+                },
+                firstActiveUplinkBWP-Id 1,
+                pusch-ServingCellConfig setup : 
+                  {
+                    maxMIMO-Layers 1
+                  }
+              },
+              pdsch-ServingCellConfig setup : 
+                {
+                  maxMIMO-Layers 2
+                },
+              tag-Id 0
+            }
+          }
+        }
+    }
+}
+
+
+2020 Jul 30  19:50:07.210  [65]  0xB821  NR5G RRC OTA Packet  --  RRC_RECONFIG_COMPLETE
+Pkt Version = 6
+RRC Release Number.Major.minor = 15.4.0
+Radio Bearer ID = 1, Physical Cell ID = 0
+Freq = 641272
+Sfn = N/A, SubFrameNum = N/A
+slot = 0
+PDU Number = RRC_RECONFIG_COMPLETE Message,    Msg Length = 1
+SIB Mask in SI =  0x00
+
+Interpreted PDU:
+
+value RRCReconfigurationComplete ::=
+{
+  rrc-TransactionIdentifier 0,
+  criticalExtensions rrcReconfigurationComplete :
+    {
+    }
+}
