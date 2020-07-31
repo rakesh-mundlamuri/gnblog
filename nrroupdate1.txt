@@ -1,0 +1,48 @@
+2020 Jul 31  14:56:26.405  [CC]  0xB88A  NR5G MAC RACH Attempt
+MAC Version
+   Major.Minor                 = 1. 1
+Log Fields Change BMask        = 0x0
+Sub ID                         = 0
+Header
+   Num Records                 = 1
+Num Attempt                    = 92
+SSB ID                         = 0
+CSI RS ID                      = 0
+Carrier ID                     = 0
+RACH Result                    = FAILURE_MSG2
+Contention Type                = CONT_FREE
+Contention Type Value          = 0
+RACH Msg Bitmask               = 0x01
+RACH Msg1
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   |   |System Time                |      |      |Preamble|          |     |          |            |            |            |RAR Window Start SFN       |RAR Window End SFN         |Backoff   |                |
+   |   |      |Sub   |     |       |Symbol|Prach |Format  |Preamble  |     |          |            |Cyclic Shift|            |      |Sub   |     |       |      |Sub   |     |       |Duration  |                |
+   |#  |Frame |Frame |Slot |SCS    |Start |Config|Value   |Format    |RA Id|FDM       |Uroot       |V           |RA RNTI     |Frame |Frame |Slot |SCS    |Frame |Frame |Slot |SCS    |(usec)    |SCS             |
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   |  0|  1003|     9|    1|  30KHZ|     0|    98|       6| FORMAT_A2|   63|         0|           9|         102|         267|  1004|     0|    0|  30KHZ|  1005|     0|    0|  30KHZ|         0|  NR5G_SCS_30KHZ|
+
+
+2020 Jul 31  14:56:26.457  [0B]  0xB88A  NR5G MAC RACH Attempt
+MAC Version
+   Major.Minor                 = 1. 1
+Log Fields Change BMask        = 0x0
+Sub ID                         = 0
+Header
+   Num Records                 = 1
+Num Attempt                    = 95
+SSB ID                         = 0
+CSI RS ID                      = 0
+Carrier ID                     = 0
+RACH Result                    = ABORTED
+Contention Type                = CONT_FREE
+Contention Type Value          = 0
+RACH Msg Bitmask               = 0x01
+RACH Msg1
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   |   |System Time                |      |      |Preamble|          |     |          |            |            |            |RAR Window Start SFN       |RAR Window End SFN         |Backoff   |                |
+   |   |      |Sub   |     |       |Symbol|Prach |Format  |Preamble  |     |          |            |Cyclic Shift|            |      |Sub   |     |       |      |Sub   |     |       |Duration  |                |
+   |#  |Frame |Frame |Slot |SCS    |Start |Config|Value   |Format    |RA Id|FDM       |Uroot       |V           |RA RNTI     |Frame |Frame |Slot |SCS    |Frame |Frame |Slot |SCS    |(usec)    |SCS             |
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   |  0|  1009|     9|    1|  30KHZ|     0|    98|       6| FORMAT_A2|   63|         0|           9|         102|         267|  1010|     0|    0|  30KHZ|  1011|     0|    0|  30KHZ|         0|  NR5G_SCS_30KHZ|
+
+
