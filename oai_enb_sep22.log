@@ -1,0 +1,1082 @@
+[CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/testing_enb.conf , debug flags: 0x00000000
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+# /dev/cpu_dma_latency set to 0us
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 52/52 parameters successfully set, (46 to default value)
+[LIBCONFIG] log_config: 52/52 parameters successfully set, (52 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+log init done
+Reading in command-line options
+[LIBCONFIG] (root): 23/23 parameters successfully set, (19 to default value)
+[LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+Getting ENBSParams
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[0m[1;31m[ENB_APP]   Impossible value: PARALLEL_RU_L1_TRX_SPLITaaaaaa
+[0m[CONFIG] parallel_conf is set to 0
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[0m[1;31m[ENB_APP]   Impossible value: ENABLE
+[0m[CONFIG] worker_conf is set to 0
+Configuration: nb_rrc_inst 1, nb_L1_inst 1, nb_ru 1
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.NB_IoT: 2/2 parameters successfully set, (1 to default value)
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.992915 
+ITTI init, useMME: 1
+[0m[TMR]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m[0m[TMR]   Starting itti queue: TASK_TIMER as task 1
+[0m[0m[TMR]   Starting itti queue: TASK_L2L1 as task 2
+[0m[0m[TMR]   Starting itti queue: TASK_BM as task 3
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_ENB as task 5
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m[0m[TMR]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+[0m[0m[TMR]   Starting itti queue: TASK_END_MARKER as task 10
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB as task 11
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_GNB as task 12
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_ENB as task 13
+[0m[0m[TMR]   Starting itti queue: TASK_S1AP as task 14
+[0m[0m[TMR]   Starting itti queue: TASK_X2AP as task 15
+[0m[0m[TMR]   Starting itti queue: TASK_M2AP_ENB as task 16
+[0m[0m[TMR]   Starting itti queue: TASK_M2AP_MCE as task 17
+[0m[0m[TMR]   Starting itti queue: TASK_M3AP as task 18
+[0m[0m[TMR]   Starting itti queue: TASK_M3AP_MME as task 19
+[0m[0m[TMR]   Starting itti queue: TASK_M3AP_MCE as task 20
+[0m[0m[TMR]   Starting itti queue: TASK_SCTP as task 21
+[0m[0m[TMR]   Starting itti queue: TASK_ENB_APP as task 22
+[0m[0m[TMR]   Starting itti queue: TASK_GNB_APP as task 23
+[0m[0m[TMR]   Starting itti queue: TASK_MCE_APP as task 24
+[0m[0m[TMR]   Starting itti queue: TASK_MME_APP as task 25
+[0m[0m[TMR]   Starting itti queue: TASK_FLEXRAN_AGENT as task 26
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_UE as task 27
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_UE as task 28
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_UE as task 29
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_UE as task 30
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_UE as task 31
+[0m[0m[TMR]   Starting itti queue: TASK_NAS_UE as task 32
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_UE as task 33
+[0m[0m[TMR]   Starting itti queue: TASK_MSC as task 34
+[0m[0m[TMR]   Starting itti queue: TASK_GTPV1_U as task 35
+[0m[0m[TMR]   Starting itti queue: TASK_UDP as task 36
+[0m[0m[TMR]   Starting itti queue: TASK_CU_F1 as task 37
+[0m[0m[TMR]   Starting itti queue: TASK_DU_F1 as task 38
+[0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[0m[OPT]   OPT disabled
+[0mreported resolution = 1 ns
+[0m[HW]   Version: Branch: NR_MAC_SSB_RO_GlobalEdge Abrev. Hash: ccc143d Date: Thu Jul 30 18:13:28 2020 +0530
+[0mRuntime table
+[0m[PHY]   RC.eNB = 0x3aa9b20
+[0m[LIBCONFIG] L1s.[0]: 24/24 parameters successfully set, (22 to default value)
+[0m[PHY]   RC.eNB[0] = 0x3aa9bd0
+[0m[0m[PHY]   RC.eNB[0][0] = 0x7f2dd17e9010
+[0m[0m[ENB_APP]   Initializing northbound interface for L1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[0m[0m[PHY]   read_config_and_init() RC.nb_L1_inst: 1
+[0m[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (16 to default value)
+[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (16 to default value)
+[0m[MAC]   [MAIN] Init function start:nb_macrlc_inst=1
+[0m[0m[PDCP]   PDCP layer has been initialized
+[0mConfiguring local RRC for MACRLC
+[0m[ENB_APP]   sched mode = default 0 [default]
+[0m[0m[ENB_APP]   using default scheduler DL algo 'round_robin_dl'
+[0m[0m[MAC]   read_config_and_init() RC.nb_macrlc_inst: 1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 20/20 parameters successfully set, (11 to default value)
+[0m[RRC]   Instance 0: Southbound Transport local_mac
+[0m[0m[RRC]   Setting node_type to ngran_eNB
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   num component carriers 1 
+[0m[0m[RRC]   enb_config::RCconfig_RRC() parameter number: 0, total number of parameters: 78, ccspath: eNBs.[0].component_carriers.[0] 
+ 
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 78/78 parameters successfully set, (17 to default value)
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+No eMBMS configuration, skipping it
+[LIBCONFIG] eNBs.[0].component_carriers.[0].emtc_parameters: 88/88 parameters successfully set, (88 to default value)
+No eMTC configuration, skipping it
+[LIBCONFIG] eNBs.[0].component_carriers.[0].SLparameters: 39/39 parameters successfully set, (39 to default value)
+No SL configuration skipping it
+[LIBCONFIG] eNBs.[0].srb1_parameters: 6/6 parameters successfully set, (0 to default value)
+[0m[RRC]   Node type 0 
+ [0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] NETWORK_CONTROLLER: 6/6 parameters successfully set, (6 to default value)
+[LIBCONFIG] RUs.[0]: 27/27 parameters successfully set, (17 to default value)
+Creating RC.ru[0]:0x3ada990
+Setting function for RU 0 to eNodeB_3GPP
+[0m[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 4
+[0m[0m[FLEXRAN_AGENT]   FlexRAN Agent for eNB 0 is DISABLED
+[0m[0m[PDCP]   PDCP layer has been initialized
+[0m[0m[PDCP]   pdcp init,usegtp 
+[0m[0m[93m[PDCP]   ENB pdcp will use tun interface for MBMS
+[0m[NETLINK]Opened socket oaitun_enm1 with fd 84
+returnValue 0
+returnValue 0
+returnValue 0
+[0m[OIP]   Interface oaitun_enm1 successfully configured, ip address 10.0.2.1, mask 255.255.255.0 broadcast address 10.0.2.255
+[0m[0m[ENB_APP]   Creating ENB_APP eNB Task
+[0m[0m[TMR]   Created Posix thread TASK_ENB_APP
+[0m[0m[RRC]   Creating RRC eNB Task
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[0m[TMR]   Created Posix thread TASK_RRC_ENB
+[0m[LIBCONFIG] eNBs.[0]: 20/20 parameters successfully set, (11 to default value)
+[0m[SCTP]   Starting SCTP layer
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   Entering main loop of RRC message task
+[0m[0m[TMR]   Created Posix thread TASK_SCTP
+[0m[0m[TMR]   Created Posix thread TASK_S1AP
+[0m[0m[TMR]   Created Posix thread TASK_UDP
+[0m[0m[UDP]   Initializing UDP task interface
+[0m[0m[UDP]   Initializing UDP task interface: DONE
+[0m[0m[TMR]   Created Posix thread TASK_GTPV1_U
+[0m[0m[S1AP]   Starting S1AP layer
+[0m[0m[GTPV1U]   Initializing GTPU stack 0x17896b0
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 78/78 parameters successfully set, (17 to default value)
+[LIBCONFIG] eNBs.[0].mme_ip_address.[0]: 5/5 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 11/11 parameters successfully set, (2 to default value)
+[0m[GTPV1U]   Configuring GTPu
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 3/3 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu address : 192.168.18.199 -> c712a8c0
+[0m[0m[ENB_APP]   default drx 2
+[0m[0m[ENB_APP]   [eNB 0] eNB_app_register via S1AP for instance 0
+[0m[0m[GTPV1U]   Tx UDP_INIT IP addr 192.168.18.199 (868)
+[0m[0m[UDP]   Initializing UDP for local address 192.168.18.199 with port 2152
+[0m[0m[S1AP]   Registered new eNB[0] and macro eNB id 3585
+[0m[0m[S1AP]   [eNB 0] check the mme registration state
+[0m[0m[UDP]   Inserting new descriptor for task 35, sd 85
+[0m[0m[UDP]   Initializing UDP for local address 192.168.18.199 with port 2152: DONE
+[0m[0m[SCTP]   sctp_bindx SCTP_BINDX_ADD_ADDR socket bound to : 192.168.18.199
+[0m[0m[SCTP]   Converted ipv4 address 192.168.18.99 to network type
+[0m[0m[SCTP]   connectx assoc_id  4235 in progress..., used 1 addresses
+[0m[0m[SCTP]   Inserted new descriptor for sd 86 in list, nb elements 1, assoc_id 4235
+[0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 20/20 parameters successfully set, (11 to default value)
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].component_carriers.[0]: 78/78 parameters successfully set, (17 to default value)
+[LIBCONFIG] list eNBs.[0].target_enb_x2_ip_address not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/testing_enb.conf 
+[LIBCONFIG] eNBs.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 11/11 parameters successfully set, (2 to default value)
+[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[0m[TMR]   Created Posix thread TASK_X2AP
+[0m[0m[MAC]   Creating MAC eNB Task
+[0m[0m[X2AP]   Registered new eNB[0] and macro eNB id 3585
+[0m[0m[X2AP]   eNB[0] eNB id 3585 acting as a listner (server)
+[0m[0m[SCTP]   Received SCTP_INIT_MSG_MULTI_REQ
+[0m[0m[SCTP]   Creating new listen socket on port 36422 with
+[0m[0m[SCTP]   ipv4 addresses:
+[0m[0m[SCTP]   	- 192.168.18.199
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32769
+[0m[0m[SCTP]   Client association changed: 0
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Peer addresses:
+[0m[0m[SCTP]       - [192.168.18.99]
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   SCTP Status:
+[0m[0m[SCTP]   assoc id .....: 4235
+[0m[0m[SCTP]   state ........: 4
+[0m[0m[SCTP]   instrms ......: 2
+[0m[0m[SCTP]   outstrms .....: 2
+[0m[0m[SCTP]   fragmentation : 1452
+[0m[0m[SCTP]   pending data .: 0
+[0m[0m[SCTP]   unack data ...: 0
+[0m[0m[SCTP]   rwnd .........: 106496
+[0m[0m[SCTP]   peer info     :
+[0m[0m[SCTP]       state ....: 2
+[0m[0m[SCTP]       cwnd .....: 4380
+[0m[0m[SCTP]       srtt .....: 0
+[0m[0m[SCTP]       rto ......: 3000
+[0m[0m[SCTP]       mtu ......: 1500
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Comm up notified for sd 86, assigned assoc_id 4235
+[0m[0m[S1AP]   3585 -> 00e010
+[0m[0m[TMR]   Created Posix thread TASK_MAC_ENB
+[0m[0m[MAC]   Starting main loop of MAC message task
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 0 for assoc_id 4235
+[0m[0m[RRC]   [eNB 0] Received RRC_CONFIGURATION_REQ : 0x3ae3ac0
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 68 received from port 36412, on stream 0, PPID 18
+[0m[0m[S1AP]   servedGUMMEIs.list.count 4
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[ENB_APP]   [eNB 0] Received S1AP_REGISTER_ENB_CNF: associated MME 1
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Rel14 RRC detected, MBMS flag 0
+[0m[0m[RRC]   [eNB 0] Node type 0 
+ [0m[0m[RRC]   configuration->schedulingInfoSIB1_BR_r13[CC_id] 0
+[0m[0m[RRC]   Configuring MIB (N_RB_DL 25,phich_Resource 0,phich_Duration 0)
+[0m[0m[RRC]   [MIB] systemBandwidth 2, phich_duration 0, phich_resource 0, sfn 0
+[0m[0m[RRC]   [MIB] schedulingInfoSIB1 0
+[0m[0m[RRC]   [eNB 0] Configuration SIB2/3, eMBMS = 0
+[0m[0m[RRC]   do_SIB23, size 38 
+ [0m[0m[MAC]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 25,Nid_cell 0,p 1,DL freq 2680000000,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[MAC]   config_mib() NFAPI_CONFIG_REQUEST(num_tlv:16) DL_BW:25 UL_BW:25 Ncp 0,p_eNB 1,earfcn 3350,band 7,phich_resource 0 phich_duration 0 phich_power_offset 6000 PSS 6000 SSS 6000 PCI 0 PBCH repetition 0
+[0m[0m[MAC]   [CONFIG]SIB2/3 Contents (partial)
+[0m[0m[MAC]   [CONFIG]pusch_config_common.n_SB = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.hoppingMode = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.enable64QAM = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.cyclicShift  = 1
+[0m[0m[PHY]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 25, N_RB_UL 25, Nid_cell 0,eNB_tx_antenna_ports 1,Ncp 0,DL freq 3350,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[PHY]   Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[0m[LIBCONFIG] loader.coding: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library libcoding.so successfully loaded
+[0m[PHY]   prach_config_common.rootSequenceIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_ConfigIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.highSpeedFlag = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.zeroCorrelationZoneConfig = 1
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_FreqOffset = 2
+[0m[0m[PHY]   pusch_config_common.n_SB = 1
+[0m[0m[PHY]   pusch_config_common.hoppingMode = 0
+[0m[0m[PHY]   pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[PHY]   pusch_config_common.enable64QAM = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupHoppingEnabled = 1
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.cyclicShift = 2
+[0m[0m[PHY]   eNB 0/0 configured
+[0m[0m[RRC]   [eNB] handover active state is 0 
+[0m[0m[RRC]   [eNB] eMBMS active state is 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] ENB:OPENAIR RRC IN....
+[0m[0m[ENB_APP]   START MAIN THREADS
+[0mRC.nb_L1_inst:1
+Initializing eNB threads single_thread_flag:0 wait_for_sync:0
+[0m[PHY]   [lte-softmodem.c] eNB structure about to allocated RC.nb_L1_inst:1 RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   [lte-softmodem.c] eNB structure RC.eNB allocated
+[0m[0m[PHY]   Initializing eNB 0 CC_id 0 single_thread_flag:0
+[0m[0m[PHY]   Initializing eNB 0 CC_id 0
+[0m[0m[PHY]   Registering with MAC interface module
+[0m[0m[PHY]   Setting indication lists
+[0m[0m[PHY]   [lte-softmodem.c] eNB structure allocated
+[0mwait_eNBs()
+Waiting for eNB L1 instances to all get configured ... sleeping 50ms (nb_L1_inst 1)
+RC.nb_L1_CC[0]:1
+eNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Initializing RU threads
+[0m[1;31m[PHY]   DJP - delete code above this /home/eurecom/rakesh/NR_MAC_SSB_RO_GlobalEdge/openairinterface5g/targets/RT/USER/lte-ru.c:2746
+[0m[0m[PHY]   Copying frame parms from eNB 0 to ru 0
+[0m[0m[PHY]   Initializing RRU descriptor 0 : (local RF,synch_to_ext_device,0)
+[0mconfiguring ru_id 0 (start_rf 0x5c7130)
+[0m[PHY]   Starting ru_thread 0, is_slave 0, send_dmrs 0
+[0m[0m[PHY]   Initializing RU proc 0 (eNodeB_3GPP,synch_to_ext_device),
+[0m[0m[PHY]   init_RU_proc() DJP - added creation of pthread_prach
+[0m[0m[93m[HW]   thread_top_init() called with affinity>0, but overruled by #ifndef CPU_AFFINITY.
+[0m[0m[HW]   [SCHED][eNB] ru_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread ru created id=21514
+[0m[0m[PHY]   Starting RU 0 (eNodeB_3GPP,synch_to_ext_device),
+[0mchannel 0, Setting tx_gain offset 0.000000, rx_gain offset 118.000000, tx_freq 2680000000.000000, rx_freq 2560000000.000000
+[0m[PHY]   Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+[0mwaiting for sync (ru_thread,-1/0x1063968,0x18a2320,0x17880a0)
+[0m[93m[HW]   thread_top_init() called with affinity>0, but overruled by #ifndef CPU_AFFINITY.
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[0m[0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1
+[0m[0m[HW]   [SCHED][eNB] ru_thread_prach started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   [INIT] common.txdata[0] = 0x7f2dd6108010 (307200 bytes)
+[0m[0m[PHY]   ru_thread_prach() RU configured - RACH processing thread running
+[0m[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library libdfts.so successfully loaded
+[0m[PHY]   nb_tx 1
+[0m[0m[PHY]   rxdata_7_5kHz[0] 0x3b35480 for RU 0
+[0m[0m[PHY]   [INIT] common.txdata_BF= 0x3ae4110 (8 bytes)
+[0m[0m[PHY]   txdataF_BF[0] 0x3b534a0 for RU 0
+[0m[0m[PHY]   rxdataF[0] 0x3b5a4c0 for RU 0
+[0m[LIBCONFIG] device.recplay: 7/7 parameters successfully set, (7 to default value)
+[LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library liboai_device.so successfully loaded
+[0m[HW]   UHD version 3.13.0.HEAD-0-g0ddc19e5 (3.13.0)
+[0m[0m[HW]   Found USRP b200
+[0mFound USRP b200
+[0m[93m[HW]   Time source set neither in usrp_args nor on command line, using default!
+[0mWaiting for reference lock....LOCKED
+[0m[HW]   USRP locked to external reference!
+[0m[0m[HW]   cal 0: freq 3500000000.000000, offset 44.000000, diff 940000000.000000
+[0m[0m[HW]   cal 1: freq 2660000000.000000, offset 49.800000, diff 100000000.000000
+[0m[0m[HW]   cal 2: freq 2300000000.000000, offset 51.000000, diff 260000000.000000
+[0m[0m[HW]   cal 3: freq 1880000000.000000, offset 53.000000, diff 680000000.000000
+[0m[0m[HW]   cal 4: freq 816000000.000000, offset 57.000000, diff 1744000000.000000
+[0m[0m[HW]   RX Gain 0 118.000000 (55.800000) => 62.200000 (max 76.000000)
+[0m[0m[HW]   USRP TX_GAIN:89.75 gain_range:89.75 tx_gain:0.00
+[0m[0m[HW]   Actual master clock: 30.720000MHz...
+[0m[0m[HW]   Actual clock source external...
+[0m[0m[HW]   Actual time source internal...
+[0m[0m[HW]   RF board max packet size 1916, size for 100µs jitter 768 
+[0m[0m[HW]   rx_max_num_samps 768
+[0m[0m[HW]   RX Channel 0
+[0m[0m[HW]     Actual RX sample rate: 7.680000MSps...
+[0m[0m[HW]     Actual RX frequency: 2.560000GHz...
+[0m[0m[HW]     Actual RX gain: 62.000000...
+[0m[0m[HW]     Actual RX bandwidth: 20.000000M...
+[0m[0m[HW]     Actual RX antenna: RX2...
+[0m[0m[HW]   TX Channel 0
+[0m[0m[HW]     Actual TX sample rate: 7.680000MSps...
+[0m[0m[HW]     Actual TX frequency: 2.680000GHz...
+[0m[0m[HW]     Actual TX gain: 89.750000...
+[0m[0m[HW]     Actual TX bandwidth: 20.000000M...
+[0m[0m[HW]     Actual TX antenna: TX/RX...
+[0m[0m[HW]     Actual TX packet size: 1916
+[0m[0m[HW]   Device timestamp: 2.825369...
+[0m[0m[HW]   [RAU] has loaded USRP B200 device.
+[0msetup_RU_buffers: frame_parms = 0x7f2dd17e9e68
+[0m[PHY]   Signaling main thread that RU 0 (is_slave 0,send_dmrs 0) is ready in state RU_RUN
+[0mwait RUs
+[0m[ENB_APP]   Waiting for RUs to be configured ... RC.ru_mask:00
+[0m[0m[PHY]   RUs configured
+[0m[0m[ENB_APP]   RC.nb_RU:1
+[0mALL RUs ready - init eNBs
+[0m[ENB_APP]   Not NFAPI mode - call init_eNB_afterRU()
+[0m[0m[PHY]   init_eNB_afterRU() RC.nb_inst:1
+[0m[0m[PHY]   RC.nb_CC[inst]:1
+[0m[0m[PHY]   RC.nb_CC[inst:0][CC_id:0]:0x7f2dd17e9010
+[0m[0m[PHY]   [eNB 0] phy_init_lte_eNB() About to wait for eNB to be configured[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 25, PHICH Resource 1, PHICH Duration 0 nb_antennas_tx:0 nb_antennas_rx:1 nb_antenna_ports_eNB:1 PRACH[rootSequenceIndex:0 prach_Config_enabled:1 configIndex:0 highSpeed:0 zeroCorrelationZoneConfig:1 freqOffset:2]
+[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 25, PHICH Resource 1, PHICH Duration 0
+[0mpcfich_reg : 0,12,25,37
+[0m[PHY]   [INIT] NB_ANTENNA_PORTS_ENB:6 fp->nb_antenna_ports_eNB:1
+[0m[0m[PHY]   [INIT] common_vars->txdataF[0] = 0x7f2dd6029010 (286720 bytes)
+[0m[0m[PHY]   [INIT] common_vars->txdataF[5] = 0x7f2dd00ff010 (286720 bytes)
+[0m[0m[PHY]   Mapping RX ports from 1 RUs to eNB 0
+[0m[0m[PHY]   Overwriting eNB->prach_vars.rxsigF[0]:0x42b4490
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   eNB->num_RU:1
+[0m[0m[PHY]   Attaching RU 0 antenna 0 to eNB antenna 0
+[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_tx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   inst 0, CC_id 0 : nb_antennas_rx 1
+[0m[0m[PHY]   Initialise transport
+[0m[0m[PHY]   init_eNB_proc(inst:0) RC.nb_CC[inst]:1 
+[0m[0m[PHY]   Initializing eNB processes instance:0 CC_id 0 
+[0m[0m[PHY]   eNB->single_thread_flag:0
+[0m[0m[93m[HW]   thread_top_init() called with affinity>0, but overruled by #ifndef CPU_AFFINITY.
+[0m[0m[HW]   [SCHED][eNB] eNB_thread_prach started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[ENB_APP]   ALL RUs ready - ALL eNBs ready
+[0m[0m[93m[HW]   thread_top_init() called with affinity>0, but overruled by #ifndef CPU_AFFINITY.
+[0m[0m[HW]   [SCHED][eNB] eNB_thread_prach_br started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[ENB_APP]   Sending sync to all threads
+[0m[0m[MME_APP]   Creating MME_APP eNB Task
+[0mgot sync (ru_thread)
+[LIBCONFIG] MMEs.[0]: 1/1 parameters successfully set, (1 to default value)
+[0m[HW]   Time in secs now: 30777528 
+[0m[0m[HW]   Time in secs last pps: 26818689 
+[0m[0m[TMR]   Created Posix thread TASK_MME_APP
+[0m[0m[MCE_APP]   Creating MCE_APP eNB Task
+[0m[0m[PHY]   RU 0 rf device ready
+[0m[0m[TMR]   Created Posix thread TASK_MCE_APP
+[0m[LIBCONFIG] MCEs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] MCEs.[0]: 1/1 parameters successfully set, (1 to default value)
+[0m[ENB_APP]   TYPE <CTRL-C> TO TERMINATE
+[0m[0m[ENB_APP]   [MCE 0] MCE_app_register via M3AP for instance 0
+[0m[0m[1;31m[HW]   [recv] received 0 samples out of 7680
+[0m[0m[1;31m[HW]   ERROR_CODE_OVERFLOW (Out of sequence error)
+
+[0m[0m[1;31m[PHY]   rx_rf: Asked for 7680 samples, got 0 from SDR
+[0m[0m[1;31m[PHY]   problem receiving samples[0m[0m[1;31m[MAC]   SCHED_MODE = 0
+[0m[0m[PHY]   rx_rf: rfdevice timing drift of 30810958 samples (ts_off 0)
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 12
+[0m[0m[SCTP]   Found data for descriptor 87
+[0m[0m[SCTP]   Received notification for sd 87, type 32769
+[0m[0m[SCTP]   Client association changed: 0
+[0m[0m[SCTP]   Comm up notified for sd 87, assigned assoc_id 4236
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   SCTP Status:
+[0m[0m[SCTP]   assoc id .....: 4236
+[0m[0m[SCTP]   state ........: 4
+[0m[0m[SCTP]   instrms ......: 32
+[0m[0m[SCTP]   outstrms .....: 32
+[0m[0m[SCTP]   fragmentation : 1452
+[0m[0m[SCTP]   pending data .: 0
+[0m[0m[SCTP]   unack data ...: 0
+[0m[0m[SCTP]   rwnd .........: 106496
+[0m[0m[SCTP]   peer info     :
+[0m[0m[SCTP]       state ....: 2
+[0m[0m[SCTP]       cwnd .....: 4380
+[0m[0m[SCTP]       srtt .....: 0
+[0m[0m[SCTP]       rto ......: 3000
+[0m[0m[SCTP]       mtu ......: 1500
+[0m[0m[SCTP]   ----------------------
+[0mx2ap_eNB_handle_sctp_association_ind at 1 (called for instance 0)
+here comes the tree (instance 0):
+---------------------------------------------
+---------------------------------------------
+x2ap_eNB_handle_sctp_association_ind at 2
+here comes the tree (instance 0):
+---------------------------------------------
+-----------------------
+eNB id 0 (null)
+state 2
+nextstream 0
+in_streams 0 out_streams 0
+cnx_id 1 assoc_id 0
+---------------------------------------------
+x2ap_eNB_handle_sctp_association_ind at 3
+here comes the tree (instance 0):
+---------------------------------------------
+-----------------------
+eNB id 0 (null)
+state 2
+nextstream 0
+in_streams 32 out_streams 32
+cnx_id 1 assoc_id 4236
+---------------------------------------------
+[0m[SCTP]   Found data for descriptor 95
+[0m[0m[SCTP]   [4236][95] Msg of length 66 received from port 36422, on stream 0, PPID 27
+[0m[0m[X2AP]   X2AP_ProcedureCode_id_endcX2Setup message!
+[0m[0m[X2AP]   TAC: 006570
+[0m[0m[X2AP]   PLMN: 22f210
+[0m<X2AP-PDU>
+    <successfulOutcome>
+        <procedureCode>36</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <ENDCX2SetupResponse>
+                <protocolIEs>
+                    <ENDCX2SetupResponse-IEs>
+                        <id>246</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RespondingNodeType-EndcX2Setup>
+                                <respond-eNB>
+                                    <ENB-ENDCX2SetupReqAckIEs>
+                                        <id>21</id>
+                                        <criticality><reject/></criticality>
+                                        <value>
+                                            <GlobalENB-ID>
+                                                <pLMN-Identity>22 F2 10</pLMN-Identity>
+                                                <eNB-ID>
+                                                    <macro-eNB-ID>
+                                                        00000000111000000001
+                                                    </macro-eNB-ID>
+                                                </eNB-ID>
+                                            </GlobalENB-ID>
+                                        </value>
+                                    </ENB-ENDCX2SetupReqAckIEs>
+                                    <ENB-ENDCX2SetupReqAckIEs>
+                                        <id>250</id>
+                                        <criticality><reject/></criticality>
+                                        <value>
+                                            <ServedEUTRAcellsENDCX2ManagementList>
+                                                <SEQUENCE>
+                                                    <servedEUTRACellInfo>
+                                                        <pCI>0</pCI>
+                                                        <cellId>
+                                                            <pLMN-Identity>22 F2 10</pLMN-Identity>
+                                                            <eUTRANcellIdentifier>
+                                                                0000000011100000000100000000
+                                                            </eUTRANcellIdentifier>
+                                                        </cellId>
+                                                        <tAC>00 01</tAC>
+                                                        <broadcastPLMNs>
+                                                            <PLMN-Identity>22 F2 10</PLMN-Identity>
+                                                        </broadcastPLMNs>
+                                                        <eUTRA-Mode-Info>
+                                                            <fDD>
+                                                                <uL-EARFCN>21350</uL-EARFCN>
+                                                                <dL-EARFCN>3350</dL-EARFCN>
+                                                                <uL-Transmission-Bandwidth><bw25/></uL-Transmission-Bandwidth>
+                                                                <dL-Transmission-Bandwidth><bw25/></dL-Transmission-Bandwidth>
+                                                            </fDD>
+                                                        </eUTRA-Mode-Info>
+                                                    </servedEUTRACellInfo>
+                                                </SEQUENCE>
+                                            </ServedEUTRAcellsENDCX2ManagementList>
+                                        </value>
+                                    </ENB-ENDCX2SetupReqAckIEs>
+                                </respond-eNB>
+                            </RespondingNodeType-EndcX2Setup>
+                        </value>
+                    </ENDCX2SetupResponse-IEs>
+                </protocolIEs>
+            </ENDCX2SetupResponse>
+        </value>
+    </successfulOutcome>
+</X2AP-PDU>
+[0m[SCTP]   Successfully sent 53 bytes on stream 0 for assoc_id 4236
+[0m[0m[SCTP]   Found data for descriptor 95
+[0m[0m[SCTP]   Received notification for sd 95, type 32777
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 12
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 0
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 0
+[0m[0m[PHY]   rx_rf: rfdevice timing drift of -1 samples (ts_off 30810958)
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 12
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 20, min_I0 12
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 19, min_I0 0
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 0
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 17, min_I0 12
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 0
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 19, min_I0 0
+[0m[0m[RRC]   [FRAME 00855][eNB][MOD 00][RNTI f92] Decoding UL CCCH 5e.d7.8e.9d.5e.42 (0x49f6173)
+[0m[0m[RRC]   [FRAME 00855][eNB][MOD 00][RNTI f92] Accept new connection from UE random UE identity (0xe4d5e978ed000000) MME code 0 TMSI 0 cause 1
+[0m[0m[MAC]   UE 0 RNTI f92 adding LC 1 idx 0 to scheduling control (total 1)
+[0m[0m[MAC]   UE 0 RNTI f92 adding LC 2 idx 1 to scheduling control (total 2)
+[0m[0m[MAC]   Added physicalConfigDedicated 0x7f2d88008700 for 0.0
+[0m[0m[RRC]   [FRAME 00855][eNB][MOD 00][RNTI f92]CALLING RLC CONFIG SRB1 (rbid 1)
+[0madd new uid is 0 f92
+
+[0m[PDCP]   [FRAME 00855][eNB][MOD 00][RNTI f92][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[0m[MAC]   generate_Msg4 ra->Msg4_frame SFN/SF: 855.6,  frameP SFN/SF: 855.6 FOR eNB_Mod: 0 
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 855, subframeP 6: Generating Msg4 with RRC Piggyback (RNTI f92)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 2] CC_id 0 857.0 ULSCH in error in round 0, ul_cqi 142, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 4] CC_id 0 859.6 ULSCH in error in round 0, ul_cqi 139, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 862.2 ULSCH in error in round 0, ul_cqi 138, UE_id 0, RNTI f92 (len 63)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[0m[0m[NAS]    AttachRequest.c:40  EMM  - attach_request len = 97
+[0m[0m[NAS]    UeNetworkCapability.c:46  decode_ue_network_capability len = 7
+[0m[0m[NAS]    UeNetworkCapability.c:63  uenetworkcapability decoded UMTS
+
+[0m[0m[NAS]    UeNetworkCapability.c:74  uenetworkcapability decoded GPRS
+
+[0m[0m[NAS]    UeNetworkCapability.c:82  uenetworkcapability decoded=6
+
+[0m[0m[NAS]    UeNetworkCapability.c:86  uenetworkcapability then decoded=8
+
+[0m[0m[NAS]    AttachRequest.c:285  EMM: Can't decode the message with iei 111
+
+[0m[0m[S1AP]   [eNB 0] Build S1AP_NAS_FIRST_REQ adding in s_TMSI: GUMMEI mme_code 1 mme_group_id 32768 ue f92
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] UE State = RRC_CONNECTED 
+[0m[0m[S1AP]   [eNB 0] Chose MME 'MME 1' (assoc_id 4235) through GUMMEI MCC 222 MNC 1 MMEGI 32768 MMEC 1
+[0m[0m[S1AP]   Found usable eNB_ue_s1ap_id: 0x06692d 420141(10)
+[0m[0m[S1AP]   GUMMEI_ID_PRESENT
+[0m[0m[SCTP]   Successfully sent 164 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 32 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[SCTP]   Successfully sent 68 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 65 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[SCTP]   Successfully sent 68 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 51 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 38 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 891.8 ULSCH in error in round 0, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[SCTP]   Successfully sent 71 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 235 received from port 36412, on stream 1, PPID 18
+[0m[0m[S1AP]   Received NAS message with the E_RAB setup procedure
+[0m[0m[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 1, eNB_ue_s1ap_id 420141, nb_of_e_rabs 1
+[0m[0m[GTPV1U]   Configured GTPu address : c712a8c0
+[0m[0m[GTPV1U]   Copied to create_tunnel_resp tunnel: index 0 target gNB ip 192.168.18.199 length 4 gtp teid 3396329693
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (3396329693, 3396329693) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[0m[0m[RRC]   [eNB 0][UE f92] Selected security algorithms (0x7f2dbc0021e0): 0, 2, changed
+[0m[0m[RRC]   [eNB 0][UE f92] Saved security key 400993DC4A80D6109C3AC5EE3691D58951AAD0DB12816F4EFDD574E7BE680DB5
+[0m[0m[RRC]   [0m
+KeNB:40 09 93 dc 4a 80 d6 10 9c 3a c5 ee 36 91 d5 89 51 aa d0 db 12 81 6f 4e fd d5 74 e7 be 68 0d b5 
+[0m[RRC]   [0m
+KRRCenc:0a 18 f3 02 b0 b7 4e 92 f5 0c 9d dc 17 fd 21 c1 4d fa 1c 31 9d 37 b8 78 55 ee 85 ed 99 48 a1 12 
+[0m[RRC]   [0m
+KRRCint:69 15 3c f3 89 91 c8 7a 3d ee 7d d7 1d 12 a2 02 a3 8f 77 dc 5a 52 3a 70 c4 72 e3 40 01 94 10 e1 
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[0m[RRC]   calling rrc_data_req :securityModeCommand
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 23
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] received securityModeComplete on UL-DCCH 1 from UE
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] received ueCapabilityInformation on UL-DCCH 1 from UE
+[0m[0m[RRC]   got UE capabilities for UE f92
+[0m[0m[93m[RRC]   drx_Configuration parameter is NULL, cannot configure local UE parameters or CDRX is deactivated
+[0m[0m[RRC]   [eNB 0] frame 0: requesting A2, A3, A4, and A5 event reporting
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 1796 bits (225 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 225, UE id f92)
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI f92][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI f92][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC AM
+[0m[0m[SCTP]   Successfully sent 2206 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] UE State = RRC_RECONFIGURED (default DRB, xid 2)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI f92][SRB 02]  Action MODIFY LCID 2 RB id 2 reconfigured with SN size 5 and RLC AM 
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI f92][DRB 01]  Action MODIFY LCID 3 RB id 1 reconfigured with SN size 1 and RLC AM 
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti f92, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[MAC]   UE 0 RNTI f92 adding LC 3 idx 2 to scheduling control (total 3)
+[0m[0m[MAC]   Added physicalConfigDedicated 0x7f2d88008700 for 0.0
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 27)
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 192.168.18.199, SIZE 4 
+[0m[0m[SCTP]   Successfully sent 43 bytes on stream 1 for assoc_id 4235
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 2] CC_id 0 909.8 ULSCH in error in round 0, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[SCTP]   Successfully sent 64 bytes on stream 1 for assoc_id 4235
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 4] CC_id 0 910.8 ULSCH in error in round 0, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 911.8 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] received ueCapabilityInformation on UL-DCCH 1 from UE
+[0m[0m[RRC]   got UE capabilities for UE f92
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 918.9 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[RRC]   [eNB 0] frame 0 subframe 0: UE rnti f92 switching to NSA mode
+[0m<X2AP-PDU>
+    <initiatingMessage>
+        <procedureCode>27</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <SgNBAdditionRequest>
+                <protocolIEs>
+                    <SgNBAdditionRequest-IEs>
+                        <id>111</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <UE-X2AP-ID>0</UE-X2AP-ID>
+                        </value>
+                    </SgNBAdditionRequest-IEs>
+                    <SgNBAdditionRequest-IEs>
+                        <id>248</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <NRUESecurityCapabilities>
+                                <nRencryptionAlgorithms>
+                                    0000000000000000
+                                </nRencryptionAlgorithms>
+                                <nRintegrityProtectionAlgorithms>
+                                    0000000000000000
+                                </nRintegrityProtectionAlgorithms>
+                            </NRUESecurityCapabilities>
+                        </value>
+                    </SgNBAdditionRequest-IEs>
+                    <SgNBAdditionRequest-IEs>
+                        <id>203</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <SgNBSecurityKey>
+                                0000000000000000000000000000000000000000000000000000000000000000
+                                0000000000000000000000000000000000000000000000000000000000000000
+                                0000000000000000000000000000000000000000000000000000000000000000
+                                0000000000000000000000000000000000000000000000000000000000000000
+                            </SgNBSecurityKey>
+                        </value>
+                    </SgNBAdditionRequest-IEs>
+                    <SgNBAdditionRequest-IEs>
+                        <id>204</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <UEAggregateMaximumBitRate>
+                                <uEaggregateMaximumBitRateDownlink>0</uEaggregateMaximumBitRateDownlink>
+                                <uEaggregateMaximumBitRateUplink>0</uEaggregateMaximumBitRateUplink>
+                            </UEAggregateMaximumBitRate>
+                        </value>
+                    </SgNBAdditionRequest-IEs>
+                    <SgNBAdditionRequest-IEs>
+                        <id>205</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <E-RABs-ToBeAdded-SgNBAddReqList>
+                                <ProtocolIE-Single-Container>
+                                    <id>209</id>
+                                    <criticality><ignore/></criticality>
+                                    <value>
+                                        <E-RABs-ToBeAdded-SgNBAddReq-Item>
+                                            <e-RAB-ID>5</e-RAB-ID>
+                                            <drb-ID>1</drb-ID>
+                                            <en-DC-ResourceConfiguration>
+                                                <pDCPatSgNB><present/></pDCPatSgNB>
+                                                <mCGresources><not-present/></mCGresources>
+                                                <sCGresources><not-present/></sCGresources>
+                                            </en-DC-ResourceConfiguration>
+                                            <resource-configuration>
+                                                <sgNBPDCPpresent>
+                                                    <full-E-RAB-Level-QoS-Parameters>
+                                                        <qCI>0</qCI>
+                                                        <allocationAndRetentionPriority>
+                                                            <priorityLevel>0</priorityLevel>
+                                                            <pre-emptionCapability><shall-not-trigger-pre-emption/></pre-emptionCapability>
+                                                            <pre-emptionVulnerability><not-pre-emptable/></pre-emptionVulnerability>
+                                                        </allocationAndRetentionPriority>
+                                                    </full-E-RAB-Level-QoS-Parameters>
+                                                    <s1-UL-GTPtunnelEndpoint>
+                                                        <transportLayerAddress>
+                                                            11000000101010000001001001100011
+                                                        </transportLayerAddress>
+                                                        <gTP-TEID>00 00 00 01</gTP-TEID>
+                                                    </s1-UL-GTPtunnelEndpoint>
+                                                </sgNBPDCPpresent>
+                                            </resource-configuration>
+                                        </E-RABs-ToBeAdded-SgNBAddReq-Item>
+                                    </value>
+                                </ProtocolIE-Single-Container>
+                            </E-RABs-ToBeAdded-SgNBAddReqList>
+                        </value>
+                    </SgNBAdditionRequest-IEs>
+                    <SgNBAdditionRequest-IEs>
+                        <id>206</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <MeNBtoSgNBContainer>
+                                10 04 81 BE 26 81 50 01 1C 3C 81 60 40 1C 4D 00 
+                                00 00 04 40 B2 50 0E 26 80 00 01 02 20 58 98 07 
+                                13 40 00 00 81 10 2C 18 03 89 A0 00 00 00 88 26 
+                                0C 00 84 C3 89 A0 00 00 80 88 26 04 00 84 C3 89 
+                                A0 00 00 80 88 26 04 00 81 8B 89 A0 00 00 C0 88 
+                                26 0C 00 80 8B 89 A0 00 00 C0 88 26 0C 00 80 83 
+                                89 A0 00 01 00 88 26 26 00 80 83 89 A0 00 01 40 
+                                88 26 04 00 81 83 89 A0 00 01 00 88 26 26 00 81 
+                                83 89 A0 00 01 40 88 36 04 00 81 81 09 87 13 40 
+                                00 03 01 10 6C 18 01 01 02 13 0E 26 80 00 06 02 
+                                20 D8 98 02 02 04 0C 1C 4D 00 00 0E 04 02 C0 30 
+                                0B 01 80 08 09 82 58 20 10 40 60 81 C1 04 80 51 
+                                01 34 14 33 43 C1 4E 9C 14 E9 C1 4E 9C 14 E9 C2 
+                                4E 9D 38 49 D3 A7 09 3A 74 E1 27 4E 9C 24 E9 D3 
+                                84 9D 3A 70 93 A7 4E 12 74 E9 C3 4E 9D 3A 70 D3 
+                                A7 4E 9C 34 E9 D3 A7 01 C2 00 01 00 80 80 10 02 
+                                10 00 10 04 04 00 80 11 00 00 40 20 00 20 00 08 
+                                01 00 22 02 01 00 40 10 08 10 0C 00 02 00 00 C0 
+                                08 01 80 10 02 20 00 08 04 00 02 00 01 00 20 04 
+                                40 00 20 08 00 04 00 02 00 40 08 C0 00 20 10 00 
+                                08 00 00 04 00 01 00 20 04 60 00 20 08 00 04 00 
+                                00 01 00 00 80 10 02 56 9E 10 00 00 00 14 F7 E0 
+                                30 20 00 00 14 04 80 70 60 E2 20 C0 00 60 9B 00 
+                                83 9F 21 07 80 04 12 01 88 80 05 02 C4 DD 01 0C 
+                                A1 A0 44 08 3A 0C 30 26 02 12 A2 08 08 04 00 30 
+                                40 E0 E1 10 1E 40 78 0B 00 C0 2C 06 00 20 26 09 
+                                60 80 41 01 82 07 04 12 01 44 04 DC 4D E0 00 12 
+                                00 00 00 00 E5 4D 00 01 00 00 04 18 60 00 34 AA 
+                                60 00 08 14 09 28 17 87 C0 0C 00
+                            </MeNBtoSgNBContainer>
+                        </value>
+                    </SgNBAdditionRequest-IEs>
+                </protocolIEs>
+            </SgNBAdditionRequest>
+        </value>
+    </initiatingMessage>
+</X2AP-PDU>
+[0m[SCTP]   Successfully sent 558 bytes on stream 0 for assoc_id 4236
+[0m[0m[SCTP]   Found data for descriptor 95
+[0m[0m[SCTP]   Received notification for sd 95, type 32777
+[0m[0m[SCTP]   Found data for descriptor 95
+[0m[0m[SCTP]   [4236][95] Msg of length 387 received from port 36422, on stream 0, PPID 27
+[0m[0m[X2AP]   x2ap_eNB_decode_successfuloutcome_message!
+[0m[0m[X2AP]   X2AP Association id: 4236 
+[0m338: 18040a28440a12e2078e0190437e30d041e641c8541e2100832ba16e63001a4e47c01349c4000000269618de3500053805100d601b4039d20268000134e4e18de32a31000d6666bee4e024bca15bc2c58f689c2e0050e01c0421603b00911e78962462001acccd0e03f03f02fc1fe13f0bf86fc3fe1b600203805b2012400404808c659c32cca281ffff000000010e0008206102860e6e088600001010034e0144035806d00e5950081ffff000000010e0008206102860e1b84218000100b20020240464ae2a581c2480b070608708038940e0000102f7a008001000007a000a0800cb9c32cca8c40035999afb938092f2856f0b163da270b80143835520d40408221061018046001a021800600c50bda04142f6483c8d159c00020003fa1084200402012c0e1240583830438401c4a0700000817bd004000800003d00050400e0040603001018800040a04940bc3e006000
+<CG-Config>
+    <criticalExtensions>
+        <c1>
+            <cg-Config>
+                <scg-CellGroupConfig>
+                    08 81 42 5C 40 F1 C0 32 08 6F C6 1A 08 3C C8 39 
+                    0A 83 C4 20 10 65 74 2D CC 60 03 49 C8 F8 02 69 
+                    38 80 00 00 04 D2 C3 1B C6 A0 00 A7 00 A2 01 AC 
+                    03 68 07 3A 40 4D 00 00 26 9C 9C 31 BC 65 46 20 
+                    01 AC CC D7 DC 9C 04 97 94 2B 78 58 B1 ED 13 85 
+                    C0 0A 1C 03 80 84 2C 07 60 12 23 CF 12 C4 8C 40 
+                    03 59 99 A1 C0 7E 07 E0 5F 83 FC 27 E1 7F 0D F8 
+                    7F C3 6C 00 40 70 0B 64 02 48 00 80 90 11 8C B3 
+                    86 59 94 50 3F FF E0 00 00 00 21 C0 01 04 0C 20 
+                    50 C1 CD C1 10 C0 00 02 02 00 69 C0 28 80 6B 00 
+                    DA 01 CB 2A 01 03 FF FE 00 00 00 02 1C 00 10 40 
+                    C2 05 0C 1C 37 08 43 00 00 20 16 40 04 04 80 8C 
+                    95 C5 4B 03 84 90 16 0E 0C 10 E1 00 71 28 1C 00 
+                    00 20 5E F4 01 00 02 00 00 0F 40 01 41 00 19 73 
+                    86 59 95 18 80 06 B3 33 5F 72 70 12 5E 50 AD E1 
+                    62 C7 B4 4E 17 00 28 70 6A A4 1A 80 81 04 42 0C 
+                    20 30 08 C0 03 40 43 00 0C 01 8A 17 B4 08 28 5E 
+                    C9 07 91 A2 B3 80 00 40 00 7F 42 10 84 00 80 40 
+                    25 81 C2 48 0B 07 06 08 70 80 38 94 0E 00 00 10 
+                    2F 7A 00 80 01 00 00 07 A0 00 A0 80 1C 00 80 C0 
+                    60 02 03 10 00
+                </scg-CellGroupConfig>
+                <scg-RB-Config>14 09 28 17 87 C0 0C 00</scg-RB-Config>
+            </cg-Config>
+        </c1>
+    </criticalExtensions>
+</CG-Config>
+[0m[RRC]   Dumping scg_CellGroupConfig: 325[0m0881425c40f1c032086fc61a083cc8390a83c4201065742dcc600349c8f802693880000004d2c31bc6a000a700a201ac0368073a404d0000269c9c31bc65462001acccd7dc9c0497942b7858b1ed1385c00a1c0380842c07601223cf12c48c40035999a1c07e07e05f83fc27e17f0df87fc36c0040700b640248008090118cb3865994503fffe000000021c001040c2050c1cdc110c00002020069c028806b00da01cb2a0103fffe000000021c001040c2050c1c37084300002016400404808c95c54b038490160e0c10e10071281c0000205ef401000200000f400141001973865995188006b3335f7270125e50ade162c7b44e170028706aa41a808104420c203008c0034043000c018a17b408285ec90791a2b3800040007f4210840080402581c2480b070608708038940e0000102f7a008001000007a000a0801c0080c06002031000
+[0m[RRC]   Dumping scg_RB_Config: 8[0m1409281787c00c00
+[0m[RRC]   Dumping nr_SecondaryCellGroupConfig: 325[0m0881425c40f1c032086fc61a083cc8390a83c4201065742dcc600349c8f802693880000004d2c31bc6a000a700a201ac0368073a404d0000269c9c31bc65462001acccd7dc9c0497942b7858b1ed1385c00a1c0380842c07601223cf12c48c40035999a1c07e07e05f83fc27e17f0df87fc36c0040700b640248008090118cb3865994503fffe000000021c001040c2050c1cdc110c00002020069c028806b00da01cb2a0103fffe000000021c001040c2050c1c37084300002016400404808c95c54b038490160e0c10e10071281c0000205ef401000200000f400141001973865995188006b3335f7270125e50ade162c7b44e170028706aa41a808104420c203008c0034043000c018a17b408285ec90791a2b3800040007f4210840080402581c2480b070608708038940e0000102f7a008001000007a000a0801c0080c06002031000
+[0m[RRC]   Dumping nr_RadioBearerConfig1: 8[0m1409281787c00c00
+len = 352
+ 22 02 8c 00 23 08 10 00 ac 24 a0 82 1e 32 05 14 22 05 09 71 03 c7 00 c8 21 bf 18 68 20 f3 20 e4 2a 0f 10 80 41 95 d0 b7 31 80 0d 27 23 e0 09 a4 e2 00 00 00 13 4b 0c 6f 1a 80 02 9c 02 88 06 b0 0d a0 1c e9 01 34 00 00 9a 72 70 c6 f1 95 18 80 06 b3 33 5f 72 70 12 5e 50 ad e1 62 c7 b4 4e 17 00 28 70 0e 02 10 b0 1d 80 48 8f 3c 4b 12 31 00 0d 66 66 87 01 f8 1f 81 7e 0f f0 9f 85 fc 37 e1 ff 0d b0 01 01 c0 2d 90 09 20 02 02 40 46 32 ce 19 66 51 40 ff ff 80 00 00 00 87 00 04 10 30 81 43 07 37 04 43 00 00 08 08 01 a7 00 a2 01 ac 03 68 07 2c a8 04 0f ff f8 00 00 00 08 70 00 41 03 08 14 30 70 dc 21 0c 00 00 80 59 00 10 12 02 32 57 15 2c 0e 12 40 58 38 30 43 84 01 c4 a0 70 00 00 81 7b d0 04 00 08 00 00 3d 00 05 04 00 65 ce 19 66 54 62 00 1a cc cd 7d c9 c0 49 79 42 b7 85 8b 1e d1 38 5c 00 a1 c1 aa 90 6a 02 04 11 08 30 80 c0 23 00 0d 01 0c 00 30 06 28 5e d0 20 a1 7b 24 1e 46 8a ce 00 01 00 01 fd 08 42 10 02 01 00 96 07 09 20 2c 1c 18 21 c2 00 e2 50 38 00 00 40 bd e8 02 00 04 00 00 1e 80 02 82 00 70 02 03 01 80 08 0c 40 00 00 00 20 50 24 a0 5e 1f 00 30 00
+[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[RRC]   E-RAB modification indication: nb nb_of_e_rabs 1 status 4
+[0m[0m[RRC]   S1AP_E_RAB_MODIFICATION_IND: sending the message: nb_of_erabstobemodified 1, total e_rabs 1, index 1
+[0m[0m[S1AP]   Size of encoded message: 43 
+[0m[0m[S1AP]   initial context setup response: failed e_rab ID 5
+[0m[0m[SCTP]   Successfully sent 43 bytes on stream 1 for assoc_id 4235
+[0m[0m[1;31m[SCTP]   Sctp_sendmsg failed: Message too long
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 942.2 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[GTPV1U]   NW_GTP_END_MARKER
+[0m[0m[93m[PDCP]   Handed SDU is of size 0! Ignoring...
+[0m[0m[93m[GTPV1U]   PDCP data request failed, cause: [UE:f92]RB is not configured!
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 34 received from port 36412, on stream 1, PPID 18
+[0m[0m[93m[S1AP]   Implementation of S1AP E-RAB Modification confirm handler is pending...
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 980.6 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 23
+[0m[0m[RRC]   UE rnti f92 failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 17, min_I0 12
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 0] CC_id 0 83.2 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 20
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 140.5 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 0] CC_id 0 144.0 ULSCH in error in round 0, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 147.5 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 2] CC_id 0 149.8 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 153.3 ULSCH in error in round 0, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 0] CC_id 0 156.8 ULSCH in error in round 0, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 160.3 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 337.9 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 380.5 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 18
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 2] CC_id 0 425.8 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 22
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 23
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 808.6 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 856.6 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 868.6 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 19
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1016.5 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 19
+[0m[0m[RRC]   UE rnti f92 failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 19, min_I0 0
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 60.6 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 100.5 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 12 PUCCH SNR 22
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 153.9 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 160.5 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 177.9 ULSCH in error in round 0, ul_cqi 185, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 0] CC_id 0 199.2 ULSCH in error in round 0, ul_cqi 159, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 22
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 19
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 552.6 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 11 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 765.9 ULSCH in error in round 0, ul_cqi 161, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 816.6 ULSCH in error in round 0, ul_cqi 155, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 864.6 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 23
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 904.5 ULSCH in error in round 0, ul_cqi 159, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 18
+[0m[0m[RRC]   UE rnti f92 failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 0
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 22
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 2] CC_id 0 141.8 ULSCH in error in round 0, ul_cqi 151, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 401.9 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 0] CC_id 0 423.2 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 617.9 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 17
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 20
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 840.5 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 21
+[0m[0m[RRC]   UE rnti f92 failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 18, min_I0 0
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 13.9 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 19
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 244.6 ULSCH in error in round 0, ul_cqi 159, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 19
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 364.6 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 30 PUCCH SNR 23
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 484.6 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 496.6 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 24
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 529.9 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 15 PUCCH SNR 20
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 2] CC_id 0 665.8 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 680.5 ULSCH in error in round 0, ul_cqi 152, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 19
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 13 PUCCH SNR 35
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 928.6 ULSCH in error in round 0, ul_cqi 155, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 3] CC_id 0 997.9 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 1012.6 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 19 PUCCH SNR 23
+[0m[0m[RRC]   UE rnti f92 failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 0.0 dB
+[0m[0m[PHY]   max_I0 19, min_I0 0
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 20
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 20
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 5] CC_id 0 316.5 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI f92 (len 63)
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[MAC]   UE  rnti f92 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 20
+[0m[0m[SCTP]   Successfully sent 72 bytes on stream 1 for assoc_id 4235
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   [4235][86] Msg of length 25 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] Logical Channel DL-DCCH, Generate RRCConnectionRelease (bytes 3)
+[0m[0m[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 1] CC_id 0 394.5 ULSCH in error in round 0, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 1] CC_id 0 395.3 ULSCH in error in round 1, ul_cqi 112, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 395.8 ULSCH in error in round 0, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 1] CC_id 0 396.1 ULSCH in error in round 2, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 396.6 ULSCH in error in round 1, ul_cqi 146, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 1] CC_id 0 396.9 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 397.4 ULSCH in error in round 2, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 398.2 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 399.0 ULSCH in error in round 0, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 399.8 ULSCH in error in round 1, ul_cqi 118, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 400.6 ULSCH in error in round 2, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 401.4 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 402.2 ULSCH in error in round 0, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 403.0 ULSCH in error in round 1, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 403.8 ULSCH in error in round 2, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 404.6 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 405.4 ULSCH in error in round 0, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 406.2 ULSCH in error in round 1, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 407.0 ULSCH in error in round 2, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 407.8 ULSCH in error in round 3, ul_cqi 112, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 408.6 ULSCH in error in round 0, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 409.4 ULSCH in error in round 1, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 410.2 ULSCH in error in round 2, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 411.0 ULSCH in error in round 3, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 411.8 ULSCH in error in round 0, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 412.6 ULSCH in error in round 1, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 413.4 ULSCH in error in round 2, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 414.2 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 415.0 ULSCH in error in round 0, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 415.8 ULSCH in error in round 1, ul_cqi 128, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 416.6 ULSCH in error in round 2, ul_cqi 128, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 417.4 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 418.2 ULSCH in error in round 0, ul_cqi 112, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 419.0 ULSCH in error in round 1, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 419.8 ULSCH in error in round 2, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 420.6 ULSCH in error in round 3, ul_cqi 110, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 421.4 ULSCH in error in round 0, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 422.2 ULSCH in error in round 1, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 423.0 ULSCH in error in round 2, ul_cqi 116, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 423.8 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 424.6 ULSCH in error in round 0, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 425.4 ULSCH in error in round 1, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 426.2 ULSCH in error in round 2, ul_cqi 128, UE_id 0, RNTI f92 (len 63)
+[0m[0m[93m[MAC]   [eNB 0][PUSCH 6] CC_id 0 427.0 ULSCH in error in round 3, ul_cqi 122, UE_id 0, RNTI f92 (len 63)
+[0m[0m[MAC]   UE 0 rnti f92: UL Failure timer 1 
+[0m[0m[93m[RRC]   S1AP removed entry in hashtable s1ap_id2_s1ap_ids for eNB_ue_s1ap_id 420141
+[0m[0m[93m[RRC]   S1AP removed entry in hashtable initial_id2_s1ap_ids for ue_initial_id 1
+[0m[0m[93m[S1AP]   Removed UE context eNB_ue_s1ap_id 420141
+[0m[0m[SCTP]   Successfully sent 24 bytes on stream 1 for assoc_id 4235
+[0m[0m[RRC]   Removing UE f92 instance after UE_CONTEXT_RELEASE_Complete (ue_release_timer_rrc timeout)
+[0m[0m[93m[RRC]   [eNB 0] Removing UE RNTI f92
+[0m[0m[RRC]   Put UE f92 into freeList
+[0m[0m[RRC]   clean_eNb_dlsch dlsch[2] UE f92 
+[0m[0m[MAC]   clean eNb uci_vars[0] UE f92 
+[0m[0m[MAC]   clean eNb uci_vars[1] UE f92 
+[0m[0m[RRC]   remove UE f92 from ul_config_pdu_list 0/1
+[0m[0m[MAC]   Removing UE 0 from Primary CC_id 0 (rnti f92)
+[0m[0m[PDCP]   remove uid is 0/0 f92
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI f92] Removed UE context
+[0m[0m[RRC]   [release_UE_in_freeList] remove UE f92 from freeList
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[SCTP]   Found data for descriptor 86
+[0m[0m[SCTP]   Received notification for sd 86, type 32777
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[X2AP]   X2 has 1 process ongoing
+[0m[0m[SCTP]   Found data for descriptor 95
+[0m[0m[SCTP]   Received notification for sd 95, type 32773
+[0mhere comes the tree (instance 0):
+---------------------------------------------
+-----------------------
+eNB id 3584 (null)
+state 1
+nextstream 0
+in_streams 32 out_streams 32
+cnx_id 1 assoc_id 4236
+---------------------------------------------
+[0m[1;31m[X2AP]   x2ap_enb_data_p not NULL and sctp state not SCTP_STATE_ESTABLISHED, what to do?
+[0m
